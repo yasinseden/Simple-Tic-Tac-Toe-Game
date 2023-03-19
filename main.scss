@@ -40,4 +40,18 @@ body {
         margin: 2px;
         border-radius: 5px;
     }
+
+    .X {
+        background-image: url(X.png);
+        background-repeat: no-repeat;
+        background-size: 42px 42px;
+        background-position: center;
+    }
+
+    .circle {
+        background-image: url(circle.png);
+        background-repeat: no-repeat;
+        background-size: 50px 50px;
+        background-position: center;
+    }
 }

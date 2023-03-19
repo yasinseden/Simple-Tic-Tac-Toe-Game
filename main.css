@@ -35,4 +35,16 @@ body {
   width: 65px;
   margin: 2px;
   border-radius: 5px;
+}
+.row .X {
+  background-image: url(X.png);
+  background-repeat: no-repeat;
+  background-size: 42px 42px;
+  background-position: center;
+}
+.row .circle {
+  background-image: url(circle.png);
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */
