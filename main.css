@@ -6,45 +6,57 @@ body {
   height: 100vh; /* viewport height */
 }
 
-.row {
+.container {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.container .row {
   display: flex;
   justify-content: center;
   width: 207px;
 }
-.row .turn {
+.container .row .turn {
   background-color: green;
   width: 50%;
   text-align: center;
 }
-.row .not-turn {
-  background-color: red;
+.container .row .not-turn {
+  background-color: rgb(223, 217, 217);
   width: 50%;
   text-align: center;
 }
-.row .left-turn {
+.container .row .left-turn {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.row .right-turn {
+.container .row .right-turn {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.row .box {
+.container .row .box {
   border: 1px solid gray;
   height: 65px;
   width: 65px;
   margin: 2px;
   border-radius: 5px;
 }
-.row .X {
+.container .row .X {
   background-image: url(X.png);
   background-repeat: no-repeat;
   background-size: 42px 42px;
   background-position: center;
 }
-.row .circle {
+.container .row .circle {
   background-image: url(circle.png);
   background-repeat: no-repeat;
   background-size: 50px 50px;
   background-position: center;
+}
+.container .theWinner {
+  width: 100%;
+  min-height: 1px;
+  text-align: center;
+  font-size: 1.6em;
+  color: red;
 }/*# sourceMappingURL=main.css.map */
